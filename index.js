@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 3000;
 app.get('/', (req, res) => {
   res.json({
     success: true,
-    message: 'Welcome to my Express API! 🚀',
+    message: 'Welcome to my Express API Ansh! 🚀',
     status: 'Server is running',
     timestamp: new Date().toISOString()
   });
